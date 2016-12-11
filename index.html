@@ -45,7 +45,6 @@
           font-family: 'Lora', serif;
           font-size: 18px;
           padding-top: 30px;
-
         }
         .caption{
           font-size: 13px;
@@ -81,8 +80,15 @@
         a:visited {
           color: green;
         }
+        a:hover {
+          color: hotpink;
+        }
+
         .headline{
-          border-bottom: 1px solid gray; 
+          border-bottom: 1px solid gray;
+        }
+        body{
+          background-color: #fbfafa;
         }
 
 
@@ -96,7 +102,7 @@
         <h1 class="title">Who’s My Teacher Today?</h1>
 <h2 class="subtitle">In St. Petersburg’s worst schools, your teacher likely has less experience or a troubled past. Many simply quit.</h2></div>
 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
-  <div class="byline"><p>By CARA FITZPATRICK, MICHAEL LaFORGIA and ADAM PLAYFORD</p>
+  <div class="byline"><p>By  <a href="#" data-toggle="tooltip" title="Twitter: @Fitz_ly"> CARA FITZPATRICK</a>, <a href="#" data-toggle="tooltip" title="Twitter: @laforgia_"> MICHAEL LaFORGIA</a> and ADAM PLAYFORD</p>
 <p>Photographs by DIRK SHADD</p>
 <p class="date"> Oct. 17, 2015</p>
 <p class="timesstaff"><a href="http://www.tampabay.com/">Times Staff</a></p></div>
@@ -414,16 +420,8 @@
 
 <h6 class="update">This story was updated on Oct. 24 to reflect the following clarification: Florida’s general knowledge examination for teacher certification includes tests for four different subjects. Lige George sat for the general knowledge exam twice before passing.</h6>
 
-<h6 class="bio">This article was written while Times reporter Michael LaForgia was participating in the National Health Journalism Fellowship, a program of the University of Southern California’s Annenberg School of Journalism.</h6>
+<h6 class="bio">This article was written while Times reporter  <a href="#" data-toggle="tooltip" title="Twitter: @laforgia_"> Michael LaForgia</a> was participating in the National Health Journalism Fellowship, a program of the University of Southern California’s Annenberg School of Journalism.</h6>
 </div>
-
-
-
-
-
-
-
-
 
 
 
@@ -438,6 +436,11 @@
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
+<script>
+$('#example').tooltip(options)
+
+</script>
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
